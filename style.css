@@ -53,6 +53,7 @@ nav{
     gap: 8.1rem;
     align-items: center;
     padding: 50px 0;
+    margin-bottom: 50px;
 }
 
 .banner-text{
@@ -89,4 +90,93 @@ nav{
     padding: 10px 24px;
     border-radius: 40px;
     background: rgb(224, 44, 109);
+}
+
+/* sponsore section */
+
+.sponsore{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* Popular collection section */
+
+
+.collection{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.collection h1{
+    color: rgb(58, 58, 58);
+    font-family: "Poppins", serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 18px 15px;
+}
+
+.card img{
+    border-radius: 0px;
+    margin-bottom: 16px;
+}
+
+.card h2{
+    color: rgb(24, 25, 31);
+    font-family: "Poppins", serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.card h4{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Inter", serif; 
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.rating{
+    display: flex;
+    align-items: baseline;
+}
+
+.rating img{
+    width: 11px;
+}
+
+.rating p{
+    font-family: "Inter", serif; 
+    font-size: .8rem;
+}
+
+#rating-text{
+    font-family: "Inter", serif; 
+    font-size: 1rem;
+    color: rgb(120, 120, 133);
+    width: 80%;
 }
