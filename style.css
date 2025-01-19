@@ -180,3 +180,45 @@ hr{
     color: rgb(120, 120, 133);
     width: 80%;
 }
+
+
+/* features box */
+
+.join-now-box{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.join-img{
+    flex: .4;
+}
+
+.join-text{
+    flex: .6;
+}
+.join-text h1{
+    color: rgb(10, 8, 38);
+    font-family: "Poppins", serif;
+    font-size: 2.3rem;
+    margin-bottom: 16px;
+}
+
+.join-text p{
+    color: rgb(108, 108, 108);
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.join-text button{
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    padding: 10px 24px;
+    background: rgb(224, 44, 109);
+}
